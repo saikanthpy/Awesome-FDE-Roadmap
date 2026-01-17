@@ -49,7 +49,7 @@ In traditional Software Engineering (SWE), you build for a "user persona." In FD
 #### Core Tools
 *   **Languages:** `Python` (Data/AI), `Go` (Infra), `SQL` (Everything).
 *   **Data:** `dbt` (Transformation), `DuckDB` (Local processing), `Apache Spark`.
-*   **Cloud:** `Terraform` (IaC), `Helm` (K8s packaging).
+*   **Cloud:** `Terraform` (IaC), `Helm` (K8s packaging), `GCP`.
 *   **Observability:** `Prometheus`, `Grafana`, `Loki`.
 
 ---
