@@ -117,7 +117,7 @@ In traditional Software Engineering (SWE), you build for a "user persona". In FD
 
 #### 📚 Phase 3 Resources
 *   **[The Trusted Advisor](https://trustedadvisor.com/books/the-trusted-advisor):** How to move from being a "vendor" to a "partner".
-*   **[The Pyramid Principle (Summary)](https://medium.com/lessons-from-mckinsey/the-pyramid-principle-7313f05560):** The gold standard for executive communication.
+*   **[The Pyramid Principle (Summary)](https://medium.com/lessons-from-mckinsey/the-pyramid-principle-f0885dd3c5c7):** The gold standard for executive communication.
 *   **[How to Win Friends and Influence People](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034):** Sounds cliché, but vital for dealing with resistant IT staff at client sites.
 *   **[The McKinsey Way](https://www.amazon.com/McKinsey-Way-Ethan-M-Rasiel/dp/0070534489):** Frameworks for thinking about business problems like an engineer.
 
