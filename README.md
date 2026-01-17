@@ -35,7 +35,7 @@ The FDE is the **bridge** between the "Perfect Code" of HQ and the "Messy Realit
 *   **The Problem:** Standard software often fails when it hits real-world data (corrupt schemas, air-gapped servers, political resistance).
 *   **The Solution:** The FDE. They don't just "fix bugs"—they architect solutions, manage stakeholders, and write the "glue code" that makes a multi-million dollar contract successful.
 
-In traditional Software Engineering (SWE), you build for a "user persona." In FDE, you build for a **mission**.
+In traditional Software Engineering (SWE), you build for a "user persona". In FDE, you build for a **mission**.
 
 | Feature | Software Engineer (SWE) | Forward Deployed Engineer (FDE) |
 | :--- | :--- | :--- |
@@ -57,7 +57,7 @@ In traditional Software Engineering (SWE), you build for a "user persona." In FD
 ### 🎓 The Master Curriculum
 
 ### Phase 1: Data Engineering (The Bedrock)
-*The FDE mission usually starts with a "Data Audit." If you can't untangle a client’s 20-year-old schema, you can't build on top of it.*
+*The FDE mission usually starts with a "Data Audit". If you can't untangle a client’s 20-year-old schema, you can't build on top of it.*
 
 *   **Advanced SQL & Query Tuning:** Beyond `JOINs`. You must master Window Functions, Recursive CTEs, and Query Optimization. You should be able to look at an EXPLAIN plan and identify why a query is scanning 10TB of data unnecessarily.
 *   **Data Modeling for Reality:** Understand **Star Schema** vs. **One Big Table (OBT)**. Learn to design schemas that balance write-performance with user-readability.
@@ -71,7 +71,7 @@ In traditional Software Engineering (SWE), you build for a "user persona." In FD
 #### 📚 Phase 1 Resources
 *   **[Select Star SQL](https://selectstarsql.com/):** An interactive book to master SQL through real-world data.
 *   **[Designing Data-Intensive Applications (DDIA)](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/):** The "Bible" for understanding how data systems actually work under the hood.
-*   **[dbt Fundamentals](https://courses.getdbt.com/courses/fundamentals):** The standard for turning "Data Engineering" into "Analytics Engineering."
+*   **[dbt Fundamentals](https://courses.getdbt.com/courses/fundamentals):** The standard for turning "Data Engineering" into "Analytics Engineering".
 *   **[DuckDB for FDEs](https://duckdb.org/docs/):** A critical tool for fast, local analysis of client CSV/Parquet files without setting up a full cluster.
 
 ---
@@ -94,7 +94,7 @@ In traditional Software Engineering (SWE), you build for a "user persona." In FD
 *   **Data Exfiltration Prevention (VPC Service Controls):**
     *   FDEs in high-security sectors (Finance/Gov) must master **VPC SC**. This defines a security perimeter around Google-managed services to prevent data from being moved to unauthorized projects.
 *   **Infrastructure as Code (Terraform):**
-    *   Automating the entire "FDE Environment." If you can’t spin up a GKE cluster, a BigQuery dataset, and an IAM policy in 5 minutes via Terraform, you aren't ready to deploy "forward."
+    *   Automating the entire "FDE Environment". If you can’t spin up a GKE cluster, a BigQuery dataset, and an IAM policy in 5 minutes via Terraform, you aren't ready to deploy "forward".
 
 #### 📚 Phase 2 Resources (GCP Focused)
 *   **[Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework):** The definitive guide to building secure, resilient, and cost-effective systems on GCP.
@@ -107,16 +107,16 @@ In traditional Software Engineering (SWE), you build for a "user persona." In FD
 ---
 
 ### Phase 3: The Consulting Mindset (The "Forward" in FDE)
-*An FDE is a "Technical Diplomat." You must solve the people problems to allow the technical solutions to work.*
+*An FDE is a "Technical Diplomat". You must solve the people problems to allow the technical solutions to work.*
 
 *   **Structured Problem Solving (MECE):** Mutually Exclusive, Collectively Exhaustive. Break a massive "AI Strategy" into small, non-overlapping technical tasks.
-*   **The Pyramid Principle:** Start with the answer first. Executives want the "So What?" before the technical "How."
+*   **The Pyramid Principle:** Start with the answer first. Executives want the "So What?" before the technical "How".
 *   **80/20 Value Scoping:** Identify the 20% of features that will solve 80% of the client's pain. Avoid "Gold-Plating" (building complex features no one asked for).
 *   **The Art of the Discovery Call:** Learning to ask "Why?" five times to find the root cause of a business problem.
-*   **Requirements Translation:** Turning a CEO's "I want more efficiency" into a Jira Ticket for "Optimizing Route Pathfinding Algorithm."
+*   **Requirements Translation:** Turning a CEO's "I want more efficiency" into a Jira Ticket for "Optimizing Route Pathfinding Algorithm".
 
 #### 📚 Phase 3 Resources
-*   **[The Trusted Advisor](https://trustedadvisor.com/books/the-trusted-advisor):** How to move from being a "vendor" to a "partner."
+*   **[The Trusted Advisor](https://trustedadvisor.com/books/the-trusted-advisor):** How to move from being a "vendor" to a "partner".
 *   **[The Pyramid Principle (Summary)](https://medium.com/lessons-from-mckinsey/the-pyramid-principle-7313f05560):** The gold standard for executive communication.
 *   **[How to Win Friends and Influence People](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034):** Sounds cliché, but vital for dealing with resistant IT staff at client sites.
 *   **[The McKinsey Way](https://www.amazon.com/McKinsey-Way-Ethan-M-Rasiel/dp/0070534489):** Frameworks for thinking about business problems like an engineer.
@@ -152,7 +152,7 @@ FDEs don't just "vibes-test" their agents; they use a two-loop evaluation framew
 
 #### 1. The Inner Loop (Dev-Time Evaluation with ADK)
 Focuses on fast, manual, and interactive debugging during development.
-*   **`adk eval`:** A CLI and Web UI tool to test execution paths against "Golden Datasets."
+*   **`adk eval`:** A CLI and Web UI tool to test execution paths against "Golden Datasets".
 *   **Metrics:** `tool_trajectory_avg_score` (Did it use the right tools?), `response_match_score` (ROUGE similarity), and `rubric_based_final_response_quality`.
 
 #### 2. The Outer Loop (Production Evaluation with Vertex AI)
@@ -193,9 +193,9 @@ Scalable, automated evaluation for high-volume production data.
 ---
 
 ## 🤝 The "Soft Stack": Consulting & Strategy
-*An FDE is a "Technical Diplomat." If you cannot navigate the boardroom, your code will never reach production.*
+*An FDE is a "Technical Diplomat". If you cannot navigate the boardroom, your code will never reach production.*
 
-In the field, you will face **ambiguity**. A CEO might say, *"I want our AI to make us more efficient."* As an FDE, your job is to translate that vagueness into a specific **Technical PRD (Product Requirements Document)**.
+In the field, you will face **ambiguity**. A CEO might say, *"I want our AI to make us more efficient".* As an FDE, your job is to translate that vagueness into a specific **Technical PRD (Product Requirements Document)**.
 
 ### 🧠 The Diagnostic Mindset
 When a client asks for a feature, the FDE uses the **"Three Whys"** to find the root business pain:
@@ -238,20 +238,20 @@ When a client asks for a feature, the FDE uses the **"Three Whys"** to find the 
 ### ✍️ Practical Scoping & Artifacts
 *The documents an FDE creates to ensure project survival.*
 
-*   **The SOW (Statement of Work):** [How to write an SOW](https://www.projectmanager.com/blog/statement-of-work). This is your shield against "Scope Creep." It defines exactly where your job ends.
+*   **The SOW (Statement of Work):** [How to write an SOW](https://www.projectmanager.com/blog/statement-of-work). This is your shield against "Scope Creep". It defines exactly where your job ends.
 *   **The MVA (Minimum Viable Architecture):** Don't over-engineer. Design the simplest version on GCP (e.g., Cloud Run + BigQuery) that proves the value in < 30 days.
 *   **[The Technical Demo](https://www.gong.io/blog/sales-demo/):** An FDE demo is not a feature tour. It is a **Value Narrative**. Show how the data moves from their messy legacy system into a clean AI-driven insight.
 
 ### 🚩 Red Flags for FDEs
 *If you see these during discovery, escalate immediately:*
-1.  **"Data will be ready in 2 weeks."** (It never is.)
-2.  **"We don't need a project manager on our side."** (The project will lose direction.)
+1.  **"Data will be ready in 2 weeks".** (It never is.)
+2.  **"We don't need a project manager on our side".** (The project will lose direction.)
 3.  **"Can we just run this on-prem for now?"** (This usually indicates a deep-seated distrust of Cloud/GCP that will block the project later.)
 
 ---
 
 ### 🚀 Key Resources for Technical Strategy
-*   **[The McKinsey Way](https://www.amazon.com/McKinsey-Way-Ethan-M-Rasiel/dp/0070534489):** Essential for learning "Consultant-speak."
+*   **[The McKinsey Way](https://www.amazon.com/McKinsey-Way-Ethan-M-Rasiel/dp/0070534489):** Essential for learning "Consultant-speak".
 *   **[Good Strategy / Bad Strategy](https://www.amazon.com/Good-Strategy-Bad-Strategy-Difference/dp/0307886239):** Learning to identify the "crux" of a client's problem.
 *   **[Architecture Decision Records (ADRs)](https://github.com/joelparkerhenderson/architecture-decision-record):** A critical tool for FDEs to document *why* a certain design choice was made at a client site.
 
@@ -261,17 +261,17 @@ When a client asks for a feature, the FDE uses the **"Three Whys"** to find the 
 
 FDE interviews at companies like Palantir, Google, or Scale AI don't just test your coding; they test your **"Delta"**—your ability to bridge the gap between a product and a mission.
 
-### 🛠 The "C.A.S.E." Framework for FDE Interviews
+### 🛠 The "C.A.S.E". Framework for FDE Interviews
 When given a case study, do not start coding. Use this four-step diagnostic approach:
-1.  **Clarify:** Ask about data volume, security (PII/PHI), and the "Definition of Done."
+1.  **Clarify:** Ask about data volume, security (PII/PHI), and the "Definition of Done".
 2.  **Architect:** Design the data flow from source system to end-user UI using GCP primitives.
-3.  **Solve (The Delta):** Identify what the product *doesn't* do out of the box and how you will build the "glue."
+3.  **Solve (The Delta):** Identify what the product *doesn't* do out of the box and how you will build the "glue".
 4.  **Evaluate:** How do we prove the AI isn't hallucinating? How do we monitor performance?
 
 ---
 
 ### 🏥 The "Delta" Case Study: Hospital Readmission
-**Scenario:** *"A massive hospital chain wants to use our software to predict patient readmission. They have 20 years of data in a legacy SQL Server on-prem. They have zero cloud presence and extreme HIPAA privacy concerns. Walk us through your first 30 days."*
+**Scenario:** *"A massive hospital chain wants to use our software to predict patient readmission. They have 20 years of data in a legacy SQL Server on-prem. They have zero cloud presence and extreme HIPAA privacy concerns. Walk us through your first 30 days".*
 
 #### The "Awesome" Solution (GCP Focused):
 *   **Days 1–7 (Discovery & Trust):**
@@ -293,15 +293,15 @@ When given a case study, do not start coding. Use this four-step diagnostic appr
 
 #### 1. The Data Ingestion Crisis
 *   **Question:** "A client has 5PB of data on-prem and needs it in BigQuery in 48 hours for an emergency exercise. How do you do it?"
-*   **FDE Answer:** "Internet bandwidth is the bottleneck. I would request a **Google Cloud Transfer Appliance** (high-capacity storage server) to be shipped to the site. While the box is in transit, I’d build the BigQuery schema and partitioning strategy to ensure the data is immediately queryable upon upload."
+*   **FDE Answer:** "Internet bandwidth is the bottleneck. I would request a **Google Cloud Transfer Appliance** (high-capacity storage server) to be shipped to the site. While the box is in transit, I’d build the BigQuery schema and partitioning strategy to ensure the data is immediately queryable upon upload".
 
 #### 2. The Hostile Stakeholder
 *   **Question:** "The client’s Lead Engineer hates our product and refuses to give you VPC access. How do you handle it?"
-*   **FDE Answer:** "This is a trust problem, not a technical one. I’d set up a 1-on-1 to understand their concerns. Often, they fear the product will replace their job. I’d show them how our platform automates the 'grunt work' (ETL/Ops), allowing them to focus on high-level architecture. I’d offer to co-author the initial deployment scripts to give them ownership."
+*   **FDE Answer:** "This is a trust problem, not a technical one. I’d set up a 1-on-1 to understand their concerns. Often, they fear the product will replace their job. I’d show them how our platform automates the 'grunt work' (ETL/Ops), allowing them to focus on high-level architecture. I’d offer to co-author the initial deployment scripts to give them ownership".
 
 #### 3. Real-Time Latency vs. AI
 *   **Question:** "A bank wants real-time fraud detection (<100ms) using an LLM. How do you architect this?"
-*   **FDE Answer:** "An LLM is too slow for the primary path. I’d architect a two-tier system: Use a fast, deterministic model (XGBoost/Vertex AI) for the 100ms decision. Then, pass the 'flagged' transactions to a **Gemini-powered agent** via **Vertex AI Reasoning Engine** for an asynchronous, deep-dive explanation that the fraud analyst can read 5 seconds later."
+*   **FDE Answer:** "An LLM is too slow for the primary path. I’d architect a two-tier system: Use a fast, deterministic model (XGBoost/Vertex AI) for the 100ms decision. Then, pass the 'flagged' transactions to a **Gemini-powered agent** via **Vertex AI Reasoning Engine** for an asynchronous, deep-dive explanation that the fraud analyst can read 5 seconds later".
 
 ---
 
@@ -435,11 +435,11 @@ graph LR
 
 ## 📖 Comprehensive Reading List
 
-Being a "Forward" engineer means staying six months ahead of the industry. This list is curated to move you from a "coder" to a "system architect and strategist."
+Being a "Forward" engineer means staying six months ahead of the industry. This list is curated to move you from a "coder" to a "system architect and strategist".
 
 ### 📚 The FDE "Canon" (Core Books)
-*   📗 **[Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (Martin Kleppmann):** The "Bible." If you only read one book on this list, make it this one. It explains the *why* behind every database and distributed system you will use on GCP.
-*   📘 **[The Trusted Advisor](https://trustedadvisor.com/books/the-trusted-advisor) (David Maister):** FDEs fail more often due to broken trust than broken code. This book teaches you how to move from a "vendor" to a "strategic partner."
+*   📗 **[Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (Martin Kleppmann):** The "Bible". If you only read one book on this list, make it this one. It explains the *why* behind every database and distributed system you will use on GCP.
+*   📘 **[The Trusted Advisor](https://trustedadvisor.com/books/the-trusted-advisor) (David Maister):** FDEs fail more often due to broken trust than broken code. This book teaches you how to move from a "vendor" to a "strategic partner".
 *   📙 **[The Pyramid Principle](https://www.amazon.com/Pyramid-Principle-Logic-Writing-Thinking/dp/0273710516) (Barbara Minto):** The McKinsey standard for communication. Learn to lead with the conclusion and support it with data—essential for talking to client executives.
 *   📕 **[Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) (Gregor Hohpe):** Essential for Phase 2. It teaches you how to "glue" legacy systems together using messaging, gateways, and translators.
 *   📓 **[Staff Engineer: Leadership beyond the management track](https://staffeng.com/book) (Will Larson):** FDE is often a "Staff-plus" role in terms of scope. This book helps you navigate the high-level technical leadership required at client sites.
@@ -458,8 +458,8 @@ Being a "Forward" engineer means staying six months ahead of the industry. This 
 ### 🎙 Podcasts: Learning on the Go
 *   🎙 **[Latent Space](https://www.latentspace.ai/):** The best podcast for the "AI Engineer" era. Deep dives into RAG, Agents, and Evals.
 *   🎙 **[The Cognitive Revolution](https://www.cognitiverevolution.ai/):** Interviews with the people actually building the frontier models you will be deploying.
-*   🎙 **[Software Engineering Daily](https://softwareengineeringdaily.com/):** Search their archives for "GCP," "Palantir," or "Distributed Systems."
-*   🎙 **[The Data Engineering Podcast](https://www.dataengineeringpodcast.com/):** Vital for staying updated on the "Modern Data Stack."
+*   🎙 **[Software Engineering Daily](https://softwareengineeringdaily.com/):** Search their archives for "GCP," "Palantir," or "Distributed Systems".
+*   🎙 **[The Data Engineering Podcast](https://www.dataengineeringpodcast.com/):** Vital for staying updated on the "Modern Data Stack".
 
 ---
 
@@ -473,7 +473,7 @@ Being a "Forward" engineer means staying six months ahead of the industry. This 
 
 ### 🌐 High-Signal Blogs
 *   **[The Morning Paper (Archive)](https://blog.acolyer.org/):** A fantastic archive of CS paper summaries.
-*   **[Google Cloud "Architecture" Blog](https://cloud.google.com/blog/products/gcp):** Look specifically for "Reference Architectures."
+*   **[Google Cloud "Architecture" Blog](https://cloud.google.com/blog/products/gcp):** Look specifically for "Reference Architectures".
 *   **[Eugene Yan’s Blog](https://eugeneyan.com/):** Incredible deep dives on building production-grade ML and Recommendation systems.
 
 ---
@@ -498,14 +498,14 @@ Being a "Forward" engineer means staying six months ahead of the industry. This 
 *   **Workflow Agents:** Deterministic agents in ADK (`SequentialAgent`, `ParallelAgent`, `LoopAgent`) that follow fixed logic paths rather than relying on an LLM to "plan" the next step.
 *   **Grounding:** The process of connecting an LLM to "Ground Truth" data (via RAG or Google Search) to ensure its responses are factual and cite-able.
 *   **AutoSxS (Side-by-Side):** A GCP-native evaluation method where an "Autorater" LLM compares two model outputs and provides a structured judgment on which is better and why.
-*   **Faithfulness (RAGAS Metric):** A measure of how much the answer is derived *only* from the retrieved context, essentially a "hallucination score."
+*   **Faithfulness (RAGAS Metric):** A measure of how much the answer is derived *only* from the retrieved context, essentially a "hallucination score".
 
 ### 🤝 Strategic Consulting (Boardroom Language)
-*   **SOW (Statement of Work):** The legally binding "fence" around your project. If it’s not in the SOW, it’s "Scope Creep."
+*   **SOW (Statement of Work):** The legally binding "fence" around your project. If it’s not in the SOW, it’s "Scope Creep".
 *   **MSA (Master Services Agreement):** The high-level contract between your company and the client that defines the legal relationship before any specific work starts.
 *   **Cost of Inaction (CoI):** A strategic argument used to drive projects forward by quantifying how much money/efficiency the client loses every day they *don't* deploy the solution.
 *   **UAT (User Acceptance Testing):** The "moment of truth" where actual client employees use the tool. If they don't "accept" it, the project isn't done, regardless of how good the code is.
-*   **Day 2 Operations:** Everything that happens after the FDE leaves. Includes monitoring, retraining models, and training the client's internal "Run Team."
+*   **Day 2 Operations:** Everything that happens after the FDE leaves. Includes monitoring, retraining models, and training the client's internal "Run Team".
 
 ---
 
@@ -515,4 +515,4 @@ Found a resource that changed your FDE career?
 2. Ensure the link is high-quality and free (or worth the cost).
 3. Add a 1-sentence description of *why* it matters for FDEs.
 
-### 🚀 "The FDE's goal is to become obsolete at a client site—because the system you built is so good, it runs itself."
+### 🚀 "The FDE's goal is to become obsolete at a client site—because the system you built is so good, it runs itself".
