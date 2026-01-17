@@ -156,17 +156,22 @@ Focuses on fast, manual, and interactive debugging during development.
 *   **Metrics:** `tool_trajectory_avg_score` (Did it use the right tools?), `response_match_score` (ROUGE similarity), and `rubric_based_final_response_quality`.
 
 #### 2. The Outer Loop (Production Evaluation with Vertex AI)
-Scalable, automated evaluation for high-volume production data.
-*   **[AutoSxS (Automatic Side-by-Side)](https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/evaluation):** A managed "LLM-as-a-Judge" service that uses an autorater to compare two models/prompts and provides explainable judgments.
-*   **RAG Metrics:** Assessing the **RAG Triad**—*Faithfulness* (Groundedness), *Answer Relevance*, and *Context Precision*.
-*   **[auto-rag-eval](https://github.com/GoogleCloudPlatform/auto-rag-eval):** An open-source framework built on Vertex AI to automate benchmark generation directly from a client's document corpus.
+Scalable, automated evaluation for high-volume production data and CI/CD integration. FDEs use this to prove that a model update or a prompt change is a measurable improvement across thousands of test cases.
+
+*   **[Vertex AI Gen AI Evaluation Service](https://cloud.google.com/vertex-ai/docs/generative-ai/models/evaluate-models):** The unified platform for both **Rapid Evaluation** (synchronous, for dev/test) and **Pipeline Evaluation** (asynchronous, for massive datasets).
+*   **Pairwise Evaluation (The evolution of AutoSxS):** A "Model-as-a-Judge" approach. It uses a superior model (e.g., Gemini 3 Pro) as an autorater to compare two model responses (Model A vs. Model B) based on a specific rubric, providing win rates and detailed explanations for every "judgment."
+*   **Pointwise Evaluation (The RAG Triad):** Assessing single model responses against specific quality dimensions using the **Rapid Eval API**:
+    *   **Groundedness:** Does the response strictly follow the retrieved context? (Crucial for eliminating hallucinations).
+    *   **Fulfillment:** Did the agent actually follow the instructions in the system prompt?
+    *   **Summarization & Coherence:** Evaluating the linguistic quality and density of the output.
+*   **[Vertex AI Model Monitoring](https://cloud.google.com/vertex-ai/docs/model-monitoring):** Essential for "Day 2" operations. FDEs set up monitoring to detect **Prediction Drift** and **Feature Attribution** changes in production, ensuring the agentic system doesn't degrade over time as client data evolves.
 
 ---
 
 ### 🤖 The Enterprise RAG Blueprint
-1.  **Ingestion:** Using **[LlamaParse](https://docs.llamaindex.ai/en/stable/module_guides/loading/llama_parse/)** to extract data from complex enterprise PDFs/tables.
-2.  **Grounding:** Using **[Vertex AI Search](https://cloud.google.com/vertex-ai/docs/generative-ai/search/overview)** as a managed RAG engine for semantic retrieval over client data.
-3.  **Vector Storage:** High-scale indexing with **[Vertex AI Vector Search](https://cloud.google.com/vertex-ai/docs/vector-search/overview)**.
+1.  **Ingestion:** Using **[LlamaParse](https://developers.llamaindex.ai/python/framework/llama_cloud/llama_parse/)** to extract data from complex enterprise PDFs/tables.
+2.  **Grounding:** Using **[Vertex AI Search](https://docs.cloud.google.com/generative-ai-app-builder/docs)** as a managed RAG engine for semantic retrieval over client data.
+3.  **Vector Storage:** High-scale indexing with **[Vertex AI Vector Search](https://docs.cloud.google.com/vertex-ai/docs/vector-search/overview)**.
 4.  **Hybrid Search:** Combining semantic vectors with keyword-based BM25 search to satisfy specific industry nomenclature.
 
 ---
