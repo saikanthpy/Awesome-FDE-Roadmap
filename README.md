@@ -179,7 +179,7 @@ Scalable, automated evaluation for high-volume production data and CI/CD integra
 ### 🛠 The FDE Technical Deep-Dives
 
 #### Cloud Architecture (GCP Focused)
-*   **[BigQuery Performance Tuning](https://cloud.google.com/bigquery/docs/best-practices-performance):** Master clustering and partitioning for TB-scale client datasets.
+*   **[BigQuery Performance Tuning](https://docs.cloud.google.com/bigquery/docs/best-practices-performance-overview):** Master clustering and partitioning for TB-scale client datasets.
 *   **[VPC Service Controls (VPC SC)](https://cloud.google.com/vpc-service-controls/docs/overview):** Mandatory for FDEs in Finance/Gov to satisfy data privacy requirements.
 *   **[Infrastructure as Code (Terraform)](https://registry.terraform.io/providers/hashicorp/google/latest/docs):** Automating the spin-up of GKE, BigQuery, and Vertex AI environments.
 
@@ -233,9 +233,9 @@ When a client asks for a feature, the FDE uses the **"Three Whys"** to find the 
 ### 📐 Strategic Frameworks
 *FDEs use these McKinsey-style frameworks to structure technical chaos.*
 
-*   **[The Pyramid Principle](https://medium.com/lessons-from-mckinsey/the-pyramid-principle-7313f05560):** **Bottom-Line Up Front (BLUF).** When talking to a CTO, give the conclusion first, then the supporting technical data.
+*   **[The Pyramid Principle](https://medium.com/lessons-from-mckinsey/the-pyramid-principle-f0885dd3c5c7):** **Bottom-Line Up Front (BLUF).** When talking to a CTO, give the conclusion first, then the supporting technical data.
 *   **[The MECE Principle](https://en.wikipedia.org/wiki/MECE_principle):** (Mutually Exclusive, Collectively Exhaustive). Ensure your project plan covers all bases without overlapping work.
-*   **[The Trusted Advisor](https://trustedadvisor.com/):** The formula: $Trust = \frac{Credibility + Reliability + Intimacy}{Self-Orientation}$. As an FDE, you must lower your "Self-Orientation" (focusing on the client's win, not your product's features).
+*   **The Trusted Advisor:** The formula: $Trust = \frac{Credibility + Reliability + Intimacy}{Self-Orientation}$. As an FDE, you must lower your "Self-Orientation" (focusing on the client's win, not your product's features).
 *   **The Delta Concept:** Focus entirely on the "Delta"—the specific bridge between what the product does out-of-the-box and what the client needs it to do to be successful.
 
 ---
@@ -243,9 +243,9 @@ When a client asks for a feature, the FDE uses the **"Three Whys"** to find the 
 ### ✍️ Practical Scoping & Artifacts
 *The documents an FDE creates to ensure project survival.*
 
-*   **The SOW (Statement of Work):** [How to write an SOW](https://www.projectmanager.com/blog/statement-of-work). This is your shield against "Scope Creep". It defines exactly where your job ends.
+*   **The SOW (Statement of Work):** This is your shield against "Scope Creep". It defines exactly where your job ends.
 *   **The MVA (Minimum Viable Architecture):** Don't over-engineer. Design the simplest version on GCP (e.g., Cloud Run + BigQuery) that proves the value in < 30 days.
-*   **[The Technical Demo](https://www.gong.io/blog/sales-demo/):** An FDE demo is not a feature tour. It is a **Value Narrative**. Show how the data moves from their messy legacy system into a clean AI-driven insight.
+*   **The Technical Demo:** An FDE demo is not a feature tour. It is a **Value Narrative**. Show how the data moves from their messy legacy system into a clean AI-driven insight.
 
 ### 🚩 Red Flags for FDEs
 *If you see these during discovery, escalate immediately:*
