@@ -25,7 +25,8 @@ FDEs are the "Technical Special Ops" who bridge the gap (The Delta) between a co
 6. [**Artifact Templates (Copy-Paste)**](#-artifact-templates-copy-paste)
 7. [**Comprehensive Reading List**](#-comprehensive-reading-list)
 8. [**The FDE Glossary**](#-the-fde-glossary)
-9. [**Contributing**](#-contributing)
+9. [**Creators**](#%E2%80%8D-creators)
+10. [**Contributing**](#-contributing)
 
 ---
 
@@ -511,6 +512,17 @@ Being a "Forward" engineer means staying six months ahead of the industry. This 
 *   **Cost of Inaction (CoI):** A strategic argument used to drive projects forward by quantifying how much money/efficiency the client loses every day they *don't* deploy the solution.
 *   **UAT (User Acceptance Testing):** The "moment of truth" where actual client employees use the tool. If they don't "accept" it, the project isn't done, regardless of how good the code is.
 *   **Day 2 Operations:** Everything that happens after the FDE leaves. Includes monitoring, retraining models, and training the client's internal "Run Team".
+
+---
+
+## 👨‍💻 Creators
+
+This repository is curated and maintained by:
+
+*   **<a href="https://www.linkedin.com/in/pierpaolo28/" target="_blank">Pier Paolo Ippolito</a>**
+*   **<a href="https://www.linkedin.com/in/paoloperrone/" target="_blank">Paolo Perrone</a>** 
+
+We built this resource to help bridge the gap for engineers moving into high-stakes, client-facing AI and Data roles. Feel free to connect with us on LinkedIn to discuss FDE, GCP, or Agentic Systems!
 
 ---
 
